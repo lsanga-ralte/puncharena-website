@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punch Arena</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto:wght@300&family=Tourney:ital,wght@1,100&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto:wght@300&display=swap" rel="stylesheet">
+<style>
+    /* CSS reset */
+    body{
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/wp2567605.jpg');
+        font-family: 'Orbitron', sans-serif;
+        /* font-weight: bold; */
+        
+    }
+    .left{
+   
+   display: inline-block;
+   position: absolute;
+   left: 20px;
+   top: 5px;
+   font-size: 20px;
+   color:rgb(121, 180, 173);
+}
+
+.navbar{
+   background-color: rgb(252, 249, 249);
+   display: block;
+   width: 70%;
+   border-bottom-left-radius: 20px;
+   margin: 0px 580px;
+}
+.nav{
+   display: inline-block;
+}
+.nav li{
+   display: inline-block;
+   font-size: 25px;
+   
+}
+.nav li a{
+   color:rgb(121, 180, 173);
+   text-decoration: none;
+   padding: 34px 15px;
+   font-weight: bold;
+}
+.nav li a:hover{
+   color: rgb(128, 128, 128);
+}
+.container{
+   /* border: 2px solid black; */
+   margin: 50px auto;
+   padding: 30px;
+   width: 30%;
+   border-radius: 27px;
+   /* background-color: black; */
+}
+.btn{
+   background-color: grey;
+   color: white;
+   border-radius: 10px;
+   padding: 10px;
+   font-family: 'Orbitron', sans-serif;
+   font-size: 12px;
+   margin: auto;
+   display: block;
+   width: 60%;
+}
+.btn:hover{
+   background-color: rgb(49, 46, 46);
+   cursor: pointer;
+}
+.form-group input{
+   text-align: center;
+   display: block;
+   width: 100%;
+   border: 2px solid black;
+   margin: 4px auto;
+   padding: 6px;
+   border-radius: 10px;
+   font-size: 20px;
+   font-family: 'Orbitron', sans-serif;;
+}
+.container h1{
+   text-align: center;
+   color:rgb(61, 134, 126);   
+   }
+
+.container2{
+   
+   display: inline-block;
+   position: absolute;
+   top: 220px;
+   right: 40px;
+
+}   
+</style>
+<body>
+    <header class="header">
+        <!-- for logo/name -->
+        <div class="left">
+            PUNCH<br>ARENA
+        </div>
+        <!-- for navigation bar -->
+        <div class="navbar">
+            <ul class="nav">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">MERCHANDISE</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Book now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                 <input type="text" name="name" placeholder="Enter Game">
+            </div>
+            <div class="form-group">
+                <input type="date" name="name" placeholder="Choose Date">
+            </div>
+            <div class="form-group">
+                <input type="time" name="name" placeholder="Choose Timings">
+            </div>
+            <div class="form-group">
+                <input type="number" name="name" placeholder="Enter contact number">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+
+    </div>
+    
+</body>
+</html>
