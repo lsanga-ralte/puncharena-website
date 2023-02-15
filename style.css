@@ -1,0 +1,81 @@
+.left{
+   
+   display: inline-block;
+   position: absolute;
+   left: 20px;
+   top: 5px;
+   font-size: 20px;
+   color:rgb(121, 180, 173);
+}
+
+.navbar{
+   background-color: rgb(252, 249, 249);
+   display: block;
+   width: 70%;
+   border-bottom-left-radius: 20px;
+   margin: 0px 580px;
+}
+.nav{
+   display: inline-block;
+}
+.nav li{
+   display: inline-block;
+   font-size: 25px;
+   
+}
+.nav li a{
+   color:rgb(121, 180, 173);
+   text-decoration: none;
+   padding: 34px 15px;
+   font-weight: bold;
+}
+.nav li a:hover{
+   color: rgb(128, 128, 128);
+}
+.container{
+   /* border: 2px solid black; */
+   margin: 50px auto;
+   padding: 30px;
+   width: 30%;
+   border-radius: 27px;
+   /* background-color: black; */
+}
+.btn{
+   background-color: grey;
+   color: white;
+   border-radius: 10px;
+   padding: 10px;
+   font-family: 'Orbitron', sans-serif;
+   font-size: 12px;
+   margin: auto;
+   display: block;
+   width: 60%;
+}
+.btn:hover{
+   background-color: rgb(49, 46, 46);
+   cursor: pointer;
+}
+.form-group input{
+   text-align: center;
+   display: block;
+   width: 100%;
+   border: 2px solid black;
+   margin: 4px auto;
+   padding: 6px;
+   border-radius: 10px;
+   font-size: 20px;
+   font-family: 'Orbitron', sans-serif;;
+}
+.container h1{
+   text-align: center;
+   color:rgb(61, 134, 126);   
+   }
+
+.container2{
+   
+   display: inline-block;
+   position: absolute;
+   top: 220px;
+   right: 40px;
+
+}   
